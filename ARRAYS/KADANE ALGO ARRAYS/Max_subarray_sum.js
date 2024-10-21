@@ -1,3 +1,9 @@
+// ALGORITHM 
+// 1. Traverse the entire array and find currentSum and maxSum
+// 2. if currentSum < 0 => update the currentSum = 0
+// 3. return maxSum
+
+
 function kadanealgo(arr){
     let currentSum = 0;
     let maxSum = -Infinity;
